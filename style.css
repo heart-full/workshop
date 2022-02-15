@@ -20,7 +20,7 @@ html, body {
   flex: 1;
 }
 
-#footer small {
+#footer small * {
   display: flex;
   margin: auto;
 }
