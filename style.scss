@@ -22,7 +22,7 @@ html,body {
   flex: 1;
 }
 
-:where(#footer){
+:where(#footer) {
   display: flex;
   & small {
     display:flex;
