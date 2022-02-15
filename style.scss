@@ -24,10 +24,8 @@ html,body {
 
 :where(#footer){
   display: flex;
-  & small {
+  & small *{
     display:flex;
-    & * {
-      margin: auto;
-    }
+    margin: auto;
   }
 }

@@ -23,10 +23,8 @@ html, body {
 :where(#footer) {
   display: flex;
 }
-:where(#footer) small {
-  display: flex;
-}
 :where(#footer) small * {
+  display: flex;
   margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
