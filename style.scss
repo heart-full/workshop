@@ -21,9 +21,7 @@ html,body {
 :where(#main) {
   flex: 1;
 }
-:where(#footer) {
-  & small * {
+:where(#footer) small * {
     display: flex;
     margin: auto;
-    }
 }
