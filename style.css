@@ -23,7 +23,7 @@ html, body {
 :where(#footer) {
   display: flex;
 }
-:where(#footer) small * {
+:where(#footer) small {
   display: flex;
   margin: auto;
 }
