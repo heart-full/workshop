@@ -10,7 +10,7 @@ html,body {
   height: 100%;
 }
 
-#Container {
+:where(#Container) {
   display: flex;
   flex-direction: column;
   height :auto;
@@ -18,10 +18,10 @@ html,body {
   position: relative;
 }
 
-#main {
+:where(#main) {
   flex: 1;
 }
-#footer {
+:where(#footer) {
   & small * {
     display: flex;
     margin: auto;
